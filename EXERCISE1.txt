@@ -1,0 +1,68 @@
+1. Newton Second Law
+ Algoritma:
+ -Tentukan m menjadi 600kg
+ -Tentukan a menjadi 2m/s2
+ -Tentukan rumus yang di gunakan menjadi F= m*a 
+ -Hitung rumus
+ -Tampilkan hasil 
+
+ Pseudocode:
+ READ mass of item EQUAL 600kg
+ READ acceleration EQUAL 2m/s2
+ COMPUTE force as mass of item TIMES acceleration
+ DISPLAY force 
+
+ 2. Tahun Kabisat
+ Algoritma:
+  -Tentukan ini Tahun berapa
+  -Jika tahun habis di bagi 4, dan tidak habis dibagi 100 maka tahun Kabisat
+  -Jika tahun habis di bagi 4, habis dibagi 100 dan habis dibagi 400 maka tahun Kabisat
+  -Jika tidak maka bukan tahun Kabisat
+
+  Pseudocode:
+  SET tahun ini TO 2020
+  IF tahun ini % 4 EQUAL 0 
+    AND MODULUS % 100 NOT EQUAL 0
+  PRINT 'Tahun Kabisat'
+  ELSEIF tahun ini % 4 EQUAL 0
+    AND DIVIDE % 100 EQUAL 0
+    AND DIVIDE % 400 EQUAL 0
+  PRINT 'Tahun Kabisat'
+  ELSE
+  PRINT 'Bukan Tahun Kabisat'
+  ENDIF
+
+3. Laundry Day 
+  Algoritma:
+  - Masukkan Baju ke Mesin Cuci
+  - Hitung Jumlah baju 
+  - Jika  Jumlah baju belum 20, Maka masukkan baju lagi. 
+  - Jika Jumlah baju sudah 20, Maka mulai mesin cuci. 
+
+  Pseudocode:
+  SET jumlah baju TO 0
+  REPEAT
+    READ jumlah baju 
+    IF jumlah baju <20 
+        INCREMENT jumlah baju
+    ENDIF
+  UNTIL jumlah baju = 20
+  PRINT 'Mulai Mesin'
+
+4. Periksa Kuku
+   Algoritma:
+   - Hitung panjang kuku 
+   - Jika kuku panjang maka hukum siswa
+   - Jika kuku pendek maka puji siswa
+
+   Pseudocode:
+   SET kuku to Pendek 
+   IF kuku = Pendek 
+     THEN PRINT 'Puji Siswa'
+   ELSE 
+     PRINT 'Hukum Siswa' 
+
+
+
+
+ 
