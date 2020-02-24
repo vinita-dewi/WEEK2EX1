@@ -20,7 +20,7 @@
   -Jika tidak maka bukan tahun Kabisat
 
   Pseudocode:
-  SET tahun ini TO 2020
+  SET tahun ini
   IF tahun ini % 4 EQUAL 0 
     AND MODULUS % 100 NOT EQUAL 0
   PRINT 'Tahun Kabisat'
@@ -51,16 +51,23 @@
 
 4. Periksa Kuku
    Algoritma:
+   - Hitung jumlah siswa
    - Hitung panjang kuku 
    - Jika kuku panjang maka hukum siswa
    - Jika kuku pendek maka puji siswa
-
+   - jika jumlah siswa sudah 40, maka selesai.
+   
    Pseudocode:
-   SET kuku to Pendek 
-   IF kuku = Pendek 
+   SET siswa to 1 
+   SET kuku
+   REPEAT
+    IF kuku = Pendek 
      THEN PRINT 'Puji Siswa'
-   ELSE 
+    ELSE 
      PRINT 'Hukum Siswa' 
+    ENDIF
+     INCREMENT siswa
+   UNTIL siswa=40
 
 
 
