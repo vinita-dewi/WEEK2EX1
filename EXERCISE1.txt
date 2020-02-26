@@ -22,11 +22,11 @@
   Pseudocode:
   SET tahun ini
   IF tahun ini % 4 EQUAL 0 
-    AND MODULUS % 100 NOT EQUAL 0
+    AND  % 100 NOT EQUAL 0
   PRINT 'Tahun Kabisat'
   ELSEIF tahun ini % 4 EQUAL 0
-    AND DIVIDE % 100 EQUAL 0
-    AND DIVIDE % 400 EQUAL 0
+    AND % 100 EQUAL 0
+    AND % 400 EQUAL 0
   PRINT 'Tahun Kabisat'
   ELSE
   PRINT 'Bukan Tahun Kabisat'
