@@ -7,8 +7,8 @@
  -Tampilkan hasil 
 
  Pseudocode:
- READ mass of item EQUAL 600kg
- READ acceleration EQUAL 2m/s2
+ READ mass of item with 600kg
+ READ acceleration with 2m/s2
  COMPUTE force as mass of item TIMES acceleration
  DISPLAY force 
 
@@ -20,7 +20,7 @@
   -Jika tidak maka bukan tahun Kabisat
 
   Pseudocode:
-  SET tahun ini
+  STORE tahun ini
   IF tahun ini % 4 EQUAL 0 
     AND  % 100 NOT EQUAL 0
   PRINT 'Tahun Kabisat'
